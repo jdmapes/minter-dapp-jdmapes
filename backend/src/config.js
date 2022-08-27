@@ -13,13 +13,36 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 500,
+    // This will be for Male Character
+    growEditionSizeTo: 25,
     layersOrder: [
       { name: "Background" },
-      { name: "Body Base" },
-      //{ name: "Skin Moles" },
-      { name: "Eyebrows" },
+      { name: "Body Base" },      
       { name: "Eyes" },
+      //{ name: "Back Hair" },
+      { name: "Hair Side" },
+      //{ name: "Hair Front" },                        
+      //{ name: "Skin Moles" },
+      { name: "Eyebrows" },      
+      { name: "Wigs"},      
+      { name: "Mouth" },
+      { name: "Noses" },
+    ],
+  },
+  {
+    // Crtl+D to select and replace all of a certain word
+    // This will be for Female Character
+    growEditionSizeTo: 25,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Body Base" },      
+      { name: "Eyes" },
+      //{ name: "Back Hair" },
+      { name: "Hair Side" },
+      //{ name: "Hair Front" },                        
+      //{ name: "Skin Moles" },
+      { name: "Eyebrows" },      
+      { name: "Wigs"},      
       { name: "Mouth" },
       { name: "Noses" },
     ],

@@ -12,23 +12,25 @@ const description = "Anime Half Chibi Athlete Collection";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
+  /*
   {
+    
     // This will be for Male Character
-    growEditionSizeTo: 25,
+    growEditionSizeTo: 50,
     layersOrder: [
       { name: "Background" },
       { name: "Body Base" },      
-      { name: "Eyes" },
-      //{ name: "Back Hair" },
-      { name: "Hair Side" },
-      //{ name: "Hair Front" },                        
+      { name: "Male Eyes" },
+      { name: "Back Hair" },
+      //{ name: "Hair Side" },
+      { name: "Hair Front" },                        
       //{ name: "Skin Moles" },
       { name: "Eyebrows" },      
-      { name: "Wigs"},      
+      //{ name: "Male Wigs"},      
       { name: "Mouth" },
       { name: "Noses" },
     ],
-  },
+  },*/
   {
     // Crtl+D to select and replace all of a certain word
     // This will be for Female Character
@@ -36,13 +38,13 @@ const layerConfigurations = [
     layersOrder: [
       { name: "Background" },
       { name: "Body Base" },      
-      { name: "Eyes" },
+      { name: "Female Eyes" },
       //{ name: "Back Hair" },
-      { name: "Hair Side" },
+      //{ name: "Hair Side" },
       //{ name: "Hair Front" },                        
-      //{ name: "Skin Moles" },
-      { name: "Eyebrows" },      
-      { name: "Wigs"},      
+      //{ name: "Skin Moles" },            
+      { name: "Female Wigs"}, 
+      { name: "Eyebrows" },     
       { name: "Mouth" },
       { name: "Noses" },
     ],
